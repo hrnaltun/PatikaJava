@@ -25,6 +25,7 @@ public class Ortalama {
         System.out.print("Müzik Notunuz : ");
         muzik=input.nextInt();
         double sonuc =  (mat+fizik+kimya+turkce+tarih+muzik)/6.0;
-        System.out.println("Ortalamanız : "+sonuc);
+        String str=(sonuc>60) ? "Sınıfı Geçti":"Sınıfta Kaldı";
+        System.out.println(str);
     }
 }

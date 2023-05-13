@@ -7,9 +7,12 @@ public class KdvTutari {
         double kdvli,kdvsiz,kdvtutari,kdvorani;
         Scanner input=new Scanner(System.in);
         kdvsiz= input.nextDouble();
+
         kdvorani=(kdvsiz>1000)? 0.08:0.18;
+
         kdvtutari=kdvsiz*kdvorani;
         kdvli=kdvsiz+kdvsiz*kdvorani;
+
         System.out.println("Kdv'siz "+kdvsiz);
         System.out.println("Kdv'li " +kdvli);
         System.out.println("Kdv tutarı "+kdvtutari);

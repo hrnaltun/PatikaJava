@@ -11,6 +11,6 @@ public class harmonicAverage {
             sum += 1 / index;
         }
 
-        System.out.print(Arrays.toString(numberList) + " Dizisinin "+ "Harmonik Ortalaması : " + numberList.length / sum);
+        System.out.print(Arrays.toString(numberList) + " Dizisinin Harmonik Ortalaması : " + numberList.length / sum);
     }
 }

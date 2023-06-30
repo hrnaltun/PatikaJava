@@ -11,7 +11,7 @@ public class SortingInArrays {
         int[] array=new int[length];
 
         for (int i=0;i<length;i++){
-            System.out.println("Sayıyı giriniz: ");
+            System.out.print((i+1) + ". Eleman: ");
             array[i]=inp.nextInt();
         }
         Arrays.sort(array);

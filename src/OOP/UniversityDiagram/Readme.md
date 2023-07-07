@@ -12,4 +12,4 @@
 
 Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
 
-(https://github.com/DTPAaron/PatikaJava/blob/master/src/OOP/UniversityDiagram/Untitled%20Diagram.jpg)
+!(https://github.com/DTPAaron/PatikaJava/blob/master/src/OOP/UniversityDiagram/Untitled%20Diagram.jpg)

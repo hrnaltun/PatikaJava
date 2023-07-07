@@ -11,3 +11,5 @@
 4-Bu sistemi tasvir eden Class (Sınıf) diyagramını çiziniz.
 
 Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
+
+![oop1](https://github.com/DTPAaron/PatikaJava/blob/master/src/OOP/UniversityDiagram/Untitled%20Diagram.jpg)

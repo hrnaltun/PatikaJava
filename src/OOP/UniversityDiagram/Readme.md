@@ -12,4 +12,6 @@
 
 Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
 
+---------------------------
+
 ![oop1](https://github.com/DTPAaron/PatikaJava/blob/master/src/OOP/UniversityDiagram/UniversityManagementSystem.jpg)

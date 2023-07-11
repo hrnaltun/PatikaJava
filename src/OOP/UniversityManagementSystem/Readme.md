@@ -1,5 +1,5 @@
 ## UNIVERSITY MANAGMENT SYSTEM
----------------------------------------
+
 
 
 - There are classrooms,study offices and departments belonging to the university.
@@ -10,6 +10,6 @@
 Here is the uml diagram:
 -
 
----------------------------
+
 
 ![oop1](https://github.com/DTPAaron/PatikaJava/blob/master/src/OOP/UniversityManagementSystem/UniversityManagementSystem.jpg)

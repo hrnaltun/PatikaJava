@@ -1,16 +1,15 @@
-Ödev - Üniversite Yönetim Sistemi
----------------------------
-Üniversiteye ait sınıflıklar, çalışma ofisleri ve departmanlar vardır.
+## UNIVERSITY MANAGMENT SYSTEM
+---------------------------------------
 
-1-Departmanlara ait ofisler vardır.
+<br>
 
-2-Üniversiteye ait çalışanlar vardır. Bu çalışanlar profesör veya memur olabilir.
+- There are classrooms,study offices and departments belonging to the university.
+- There are offices belonging to department.
+- There are employees belonging to the university. These employees can be professors or officers.
+- Every employee works in an office.
 
-3-Her çalışan bir ofiste çalışır.
+Here is the uml diagram:
 
-4-Bu sistemi tasvir eden Class (Sınıf) diyagramını çiziniz.
-
-Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
 
 ---------------------------
 

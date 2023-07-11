@@ -1,5 +1,5 @@
 ## ZOO MANAGMENT SYSTEM
--------------------------
+
 
 - Animals are characterized by species in groups such as:
 
@@ -21,6 +21,6 @@
 Here is the UML diagram:
 -
 
----------------------------
+
 
 ![oop2](https://github.com/DTPAaron/PatikaJava/blob/master/src/OOP/ZooManagementSystem/zooManagementSystem.jpg)

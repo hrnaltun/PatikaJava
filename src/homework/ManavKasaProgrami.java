@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class ManavKasaProgrami {
     public static void main(String[] args) {
-        double Armut,Elma,Domates,Muz,Patlican;
+        double pear,apple,tomatoes,banana,eggplant;
         Scanner inp= new Scanner(System.in);
         System.out.print("Kaç kilo Armut aldınız?:");
-        Armut=inp.nextDouble();
+        pear=inp.nextDouble();
         System.out.print("Kaç kilo Elma aldınız?:");
-        Elma=inp.nextDouble();
+        apple=inp.nextDouble();
         System.out.print("Kaç kilo Domates aldınız?:");
-        Domates=inp.nextDouble();
+        tomatoes =inp.nextDouble();
         System.out.print("kaç kilo Muz aldınız?:");
-        Muz=inp.nextDouble();
+        banana=inp.nextDouble();
         System.out.print("Kaç kilo Patlıcan aldınız?:");
-        Patlican=inp.nextDouble();
+        eggplant=inp.nextDouble();
 
-        double tutar = (Armut*2.14 + Elma*3.67 + Domates*1.11 + Muz*0.95 + Patlican*5.00);
-        System.out.print("Toplam tutar:"+tutar);
+        double total = (pear*2.14 + apple*3.67 + tomatoes *1.11 + banana*0.95 + eggplant*5.00);
+        System.out.print("Toplam tutar:"+total);
     }
 }

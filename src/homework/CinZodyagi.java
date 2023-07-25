@@ -7,41 +7,41 @@ public class CinZodyagi {
         Scanner inp = new Scanner(System.in);
 
         System.out.print("Doğum yılınızı girin: ");
-        int dogumYili = inp.nextInt();
+        int year = inp.nextInt();
 
-        String zodyak = "";
+        String zodiac = "";
 
-        int kalan = dogumYili % 12;
+        int remaining = year % 12;
 
-        if (kalan == 0) {
-            zodyak = "Maymun";
-        } else if (kalan == 1) {
-            zodyak = "Horoz";
-        } else if (kalan == 2) {
-            zodyak = "Köpek";
-        } else if (kalan == 3) {
-            zodyak = "Domuz";
-        } else if (kalan == 4) {
-            zodyak = "Fare";
-        } else if (kalan == 5) {
-            zodyak = "Öküz";
-        } else if (kalan == 6) {
-            zodyak = "Kaplan";
-        } else if (kalan == 7) {
-            zodyak = "Tavşan";
-        } else if (kalan == 8) {
-            zodyak = "Ejderha";
-        } else if (kalan == 9) {
-            zodyak = "Yılan";
-        } else if (kalan == 10) {
-            zodyak = "At";
-        } else if (kalan == 11) {
-            zodyak = "Koyun";
+        if (remaining == 0) {
+            zodiac = "Maymun";
+        } else if (remaining == 1) {
+            zodiac = "Horoz";
+        } else if (remaining == 2) {
+            zodiac = "Köpek";
+        } else if (remaining == 3) {
+            zodiac = "Domuz";
+        } else if (remaining == 4) {
+            zodiac = "Fare";
+        } else if (remaining == 5) {
+            zodiac = "Öküz";
+        } else if (remaining == 6) {
+            zodiac = "Kaplan";
+        } else if (remaining == 7) {
+            zodiac = "Tavşan";
+        } else if (remaining == 8) {
+            zodiac = "Ejderha";
+        } else if (remaining == 9) {
+            zodiac = "Yılan";
+        } else if (remaining == 10) {
+            zodiac = "At";
+        } else if (remaining == 11) {
+            zodiac = "Koyun";
         } else {
             System.out.println("Geçersiz doğum yılı!");
             return;
         }
 
-        System.out.println("Çin Zodyağı Burcunuz: " + zodyak);
+        System.out.println("Çin Zodyağı Burcunuz: " + zodiac);
     }
 }

@@ -4,35 +4,35 @@ import java.util.Scanner;
 public class UcakBiletiFiyatiHesaplama {
 
     public static void main(String[] args) {
-        double birimFiyat = 0.10;
+        double costPerKm = 0.10;
         Scanner inp = new Scanner(System.in);
 
         System.out.print("Mesafe (KM): ");
-        int mesafe = inp.nextInt();
+        int distance = inp.nextInt();
 
         System.out.print("Yaşınız: ");
-        int yas = inp.nextInt();
+        int age = inp.nextInt();
 
         System.out.print("Yolculuk Tipi (1: Tek Yön, 2: Gidiş-Dönüş): ");
-        int yolculukTipi = inp.nextInt();
+        int type = inp.nextInt();
 
 
-        double toplamFiyat = birimFiyat * mesafe;
+        double total = costPerKm  * distance;
 
-        if (mesafe > 0 && yas > 0 ) {
-            if (yas < 12) {
-                toplamFiyat *= 0.5;
-            } else if (yas <= 24) {
-                toplamFiyat *= 0.9;
-            } else if (yas > 65) {
-                toplamFiyat *= 0.7;
+        if (distance > 0 && age > 0 ) {
+            if (age < 12) {
+                total *= 0.5;
+            } else if (age <= 24) {
+                total *= 0.9;
+            } else if (age > 65) {
+                total *= 0.7;
             }
 
-            if (yolculukTipi == 2) {
-                toplamFiyat *= 1.6;
+            if (type == 2) {
+                total *= 1.6;
             }
 
-            System.out.println("Toplam Bilet Fiyati: " + toplamFiyat + " TL");
+            System.out.println("Toplam Bilet Fiyati: " + total + " TL");
         } else {
             System.out.println("Hatalı Veri Girdiniz!");
         }
